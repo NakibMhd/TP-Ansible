@@ -1,0 +1,5 @@
+---
+- name: Mise en place de MySQL
+  hosts: db
+  roles:
+    - mysql

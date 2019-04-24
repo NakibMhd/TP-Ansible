@@ -1,0 +1,6 @@
+---
+- name: Serveur FTP, Apache avec PHP, Wordpress
+  hosts: web
+  roles:
+    - web-php-ftp
+    - wordpress

@@ -1,0 +1,8 @@
+---
+
+- name: install MySQL
+  apt:
+    name: mysql-server 
+    update_cache: yes
+    state: installed
+    notify: start mysql service
